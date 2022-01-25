@@ -1,0 +1,385 @@
+* {
+    /* border: 1px solid red; */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+    scroll-behavior: smooth;
+}
+/*body {
+    background-color: #f1f1f1;
+    color: #000;
+}
+.dark-mode {
+    background-color: #000;
+    color: #f1f1f1;
+}*/
+#header {
+    background-color: rgb(29, 27, 27);
+}
+img {
+    width: auto;
+    height: 79px;
+}
+h1 {
+    font-family: Noto Serif KR;
+    position: absolute;
+    top: 1.7rem;
+    left: 18rem;
+    color: rgb(161, 20, 20);
+}
+.Link-un {
+    position: absolute;
+    top: 2.5rem;
+    left: 35rem;
+}
+.Link-ing {
+    text-decoration: none;
+    font-family: Encode Sans Semi Condensed;
+    color: #c5c5c5;
+    padding: 7px;
+}
+.Link-ing:hover {
+    background-color: #a0a0a0;
+    color: #000;
+    border-radius: 5px;
+}
+#link-un {
+    position: absolute;
+    top: 2.5rem;
+    right: 15rem;
+}
+.sign-up {
+    background-color: #fff;
+    display: flex;
+    padding-top: 5rem;
+    justify-content: flex-end;
+    justify-content: space-between;
+    margin-bottom: 6rem;
+}
+.Talk-un {
+    margin-left: 10rem;
+}
+h2 {
+    font-family: Encode Sans semi Condensed;
+    font-size: 4rem;
+    font-weight: bolder;
+    color: rgb(9, 66, 187);
+    letter-spacing: 1px;
+    line-height: 5.8rem;
+}
+.para {
+    font-family: Encode Sans semi Condensed;
+    font-size: 2.5rem;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+#buttonUn {
+    display: flex;
+    flex-direction: column;
+}
+.ghosted {
+    background-color: rgb(9, 66, 187);
+    margin-top: 35px;
+    width: fit-content;
+    padding: 9px 90px 9px 90px;
+    font-family:  Encode Sans semi Condensed;
+    font-size: 1.25rem;
+    color: #fff;
+}
+.filled {
+    font-family:  Encode Sans semi Condensed;
+    font-size: 1.25rem;
+    background-color: #fff;
+    border: 2px solid rgb(9, 66, 187);
+    margin-top: 15px;
+    width: fit-content;
+    padding: 9px 50px 9px 70px;
+    color: rgb(9, 66, 187);
+}
+.ghosted:hover {
+    background-color: rgb(7, 48, 138);
+    color: #f1f1f1;
+    box-shadow: 6px 5px 16px 2px rgb(204, 204, 204);
+}
+.filled:hover {
+    background-color: #f1f1f1;
+    box-shadow: 6px 4px 10px 2px rgb(204, 204, 204);
+}
+#Link-ing {
+    position: absolute;
+    bottom: 10.6rem;
+    font-weight: 300;
+    font-family: Encode Sans semi Condensed;
+   text-decoration: none;
+   color: rgb(9, 66, 187);
+   font-size: 1.2rem;
+}
+.Side-un {
+    width: auto;
+    height: 30rem;
+}
+
+#speechUn {
+    background-color: #f1f1f1;
+    padding-top: 6rem;
+}
+h3 {
+    font-family: Encode Sans semi Condensed;
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-weight: 400;
+}
+.ted-un {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 7rem;
+    margin: 7rem 30px 0 30px;
+    padding-bottom: 10rem;
+}
+#ted {
+    text-align: center;
+}
+h4 {
+    font-family: Encode Sans semi Condensed;
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 15px 0 10px 0;
+}
+p {
+    font-family: Noto Serif KR;
+    font-size: 1.2rem;
+}
+.mobile-un {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10rem;
+    margin-bottom: 8rem;
+}
+#mobile {
+    width: auto;
+    height: 28rem;
+}
+.Download {
+    margin-top: 8rem;
+}
+.heading {
+    font-family: Noto Serif KR;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+#parag {
+    font-family:Encode Sans semi Condensed;
+    margin-left: 12rem;
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+.linked-un {
+    text-decoration: none;
+    color: rgb(9, 66, 187);
+    margin-left: 12rem;
+    font-family: Noto Serif KR;
+    font-weight: bold;
+}
+/*.slideShow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;    
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+background-color: rgba(0, 0, 0, 0.8);
+}
+.text {
+    color: #f2f2f2;    
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;        
+}
+.numberText {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50px;
+    display: inline-block;
+    transition: background-color 0.6s ease;    
+}
+.active, .dot:hover {
+    background-color: #717171;
+}
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+   animation-name: fade;
+   animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+    from {opacity: .4;}
+    to {opacity: 1;}
+}
+@keyframes fade {
+    from {opacity: .4;}
+    to {opacity: 1;}
+}*/
+
+.creation-un {
+    background-color: #f1f1f1;
+    padding-top: 7rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.cr8 {
+    margin-left: 4rem;
+}
+.create {
+    font-family: Noto Serif KR;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    color: #000;
+    line-height: normal;
+    font-weight: bold;
+}
+#create-page {
+    font-family: Encode Sans semi Condensed;
+    font-weight: 500;
+    margin-top: 15px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+figcaption {
+    margin-right: 0;
+    margin-bottom: 7rem;
+}
+.Unsplash {
+    width: 40rem;
+    height: 21rem;
+}
+.featute {
+    font-family: Encode Sans semi Condensed;
+    color: #000;
+    font-size: 2.7rem;
+    text-align: center;
+    margin-top: 7rem;
+    letter-spacing: 2px;
+}#Feau {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 7rem;
+    margin: 7rem 30px 0 30px;
+    padding-bottom: 10rem;
+}
+.tet1 {
+    text-align: center;
+} 
+#pricing {
+    background-color: rgb(9, 66, 187);
+    padding-top: 10rem;
+    margin-bottom: 5rem;
+}
+#price {
+    color: #f1f1f1;
+    font-weight: bold;
+}
+.drop-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.btn {
+    width: fit-content;
+    margin: 4rem 0 10rem 0;
+    padding: 1rem 7rem 1rem 7rem;
+    font-family: Noto Serif KR;
+}
+.btn:first-child {
+    margin-left: 9rem;
+}
+.btn:last-child {
+    margin-right: 12rem;
+}
+a {
+    color: rgb(9, 66, 187);
+    text-decoration: none;
+}
+.follow {
+    margin: 4rem 0 4rem 7rem;
+    margin-bottom: 5rem;
+
+}
+#follow {
+    font-family: Encode Sans semi Condensed;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #a8a5a5;
+    width: 100%;
+    text-align: center;
+}
+.footer-un {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+h5 {
+    font-family: Encode Sans semi Condensed;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    color: rgb(7, 48, 138);
+    font-weight: 500;
+}
+.foot {
+    text-decoration: none;
+    font-family:  Noto Serif KR;
+    color: #000;
+    letter-spacing: 2px;
+    line-height: 30px;
+    font-size: 0.8rem;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.sticky + .contents {
+    padding-top: 60px;    
+}
